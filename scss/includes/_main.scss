@@ -1,0 +1,46 @@
+
+html, body, #wrapper {
+	height: 100%;
+}
+body {
+	width: 100%;
+	font-family: $Montserrat;
+	color: $main-font-color;
+		
+	background: $body-bg;
+}
+
+.shop-wrapper {
+	position: relative;
+	width: 980px;
+	margin:0 auto;
+	padding: 50px  110px 80px;
+}
+.shop-form, .shop-catalog {
+ float: left;
+ 
+}
+.shop-form {
+	width: 230px;
+	font-size: $shop-form-font-size;
+	font-weight: $shop-form-font-weight;
+	line-height: $shop-form-line-height;
+
+	letter-spacing: $shop-form-letter-spacing;
+	text-transform: uppercase;
+}
+.shop-catalog {
+	width: 730px;
+}
+
+.container {
+	padding: 0 20px;
+}
+.clearfix::after {
+	display: table;
+	content: "";
+	clear: both;
+}	
+img {
+	vertical-align: bottom;
+}
